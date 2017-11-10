@@ -1,5 +1,5 @@
 package com.ufpb.start;
-public class Teste1 {
+public class Test1 {
 	public static void main(String[] args) {
 		Thread thread = new FirstThread();
 		Thread thread2 = new Thread(new FirstRunnable());

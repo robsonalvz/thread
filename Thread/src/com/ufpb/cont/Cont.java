@@ -1,6 +1,6 @@
 package com.ufpb.cont;
 
-public class Contador {
+public class Cont {
 	private int cont=0;
 	
 	public synchronized void incremente(){

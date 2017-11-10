@@ -1,9 +1,9 @@
 package com.ufpb.cont;
 
 public class TB extends Thread{
-	private Contador contador;
+	private Cont contador;
 	
-	public TB(Contador c) {
+	public TB(Cont c) {
 		this.contador=c;
 	}
 	@Override

@@ -1,8 +1,8 @@
 package com.ufpb.cont;
 
-public class TesteContador {
+public class TestCont {
 	public static void main(String[] args) {
-		Contador contador = new Contador();
+		Cont contador = new Cont();
 		TA ta = new TA(contador);
 		TB tb = new TB(contador);
 		ta.start();

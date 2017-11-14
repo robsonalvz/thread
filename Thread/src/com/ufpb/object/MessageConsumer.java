@@ -1,6 +1,6 @@
 package com.ufpb.object;
 
-public class ConsumidoraDeMensagens extends Thread{
+public class MessageConsumer extends Thread{
 
 	@Override
 	public void run() {

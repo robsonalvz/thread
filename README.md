@@ -3,4 +3,4 @@
 * Threads
 * Runnable
 * synchronized
-* start, sleep, join, wait, notifyAll/notify and basic methods.
+* Basic methods (start, sleep, join, wait, notifyAll/notify..)

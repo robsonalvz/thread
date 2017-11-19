@@ -13,8 +13,9 @@ public class MessageProducter extends Thread{
 	public void run(){
 		for (int i=1;i<=5;i++){
 			synchronized (messages) {
-				System.out.println("Colocando mensagens na lista");
-				messages.add("Oi "+i);
+				System.out.println("Adding messages in list "+Thread.currentThread());
+				messages.add("Hello "+i);
+				messages.notifyAll();
 				try {
 					messages.wait(2000);
 				} catch (InterruptedException e) {
@@ -23,13 +24,5 @@ public class MessageProducter extends Thread{
 			}
 		}
 	}
-	public void addMessage(String message){
-		this.messages.add(message);
-		try {
-			messages.wait();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-	}	
 	
 }

@@ -10,6 +10,7 @@ public class Main {
 		MessageConsumer mc1 = new MessageConsumer(messages);
 		MessageConsumer mc2 = new MessageConsumer(messages);
 		MessageConsumer mc3 = new MessageConsumer(messages);
+		
 		producter.start();
 		mc1.start();
 		mc2.start();

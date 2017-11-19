@@ -5,6 +5,7 @@ import java.util.List;
 public class MessageProducter extends Thread{
 	
 	private List<String> messages;
+	//teste
 	
 	public MessageProducter(List<String> messages) {
 		this.messages=messages;
